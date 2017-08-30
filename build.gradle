@@ -1,4 +1,4 @@
-group 'nz.co.vodafone.appium.utils'
+group 'cucumber.utils'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -10,7 +10,7 @@ task fatJar(type: Jar) {
     manifest {
         attributes 'Implementation-Title': 'Merge-Reports',
                 'Implementation-Version': 1.0,
-                'Main-Class': 'nz.co.vodafone.appium.utils.MergeReports'
+                'Main-Class': 'cucumber.utils.MergeReports'
     }
     baseName = project.name + '-all'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }

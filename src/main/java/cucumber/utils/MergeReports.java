@@ -1,4 +1,4 @@
-package nz.co.vodafone.appium.utils;
+package cucumber.utils;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
