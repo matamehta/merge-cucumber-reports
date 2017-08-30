@@ -11,7 +11,7 @@ export CUCUMBER_REPORT="<PATH_TO_CUCUMBER_REPORT>"
 
 Set the path to cucumber rerun report
 ```
-export CUCUMBER_RERUN_REPORT="<PATH_TO_CUCUMBER_REPORT>"
+export CUCUMBER_RERUN_REPORT="<PATH_TO_CUCUMBER_RERUN_REPORT>"
 ```
 
 # Adding this as a dependency to your project as a Jar file:
