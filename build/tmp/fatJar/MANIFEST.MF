@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Merge-Reports
+Implementation-Version: 1.0
+Main-Class: nz.co.vodafone.appium.utils.MergeReports
+
